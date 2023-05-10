@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 50px auto;
+    text-align: center;
+    width: 1000px;
+}
+h1 {
+    font-family: 'Passion One';
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #452370;
+}
+label {
+    width: 500px;
+    display: inline-block;
+    text-align: left;
+    font-size: 1.5rem;
+    font-family: 'Lato';
+}
+input {
+    border: 2px solid #ccc;
+    font-size: 1.5rem;
+    font-weight: 100;
+    font-family: 'Lato';
+    padding: 2px;
+}
+form {
+    margin: 25px auto;
+    padding: 20px;
+    border: 5px solid #452370;
+    border-radius: 50px;
+    width: 1000px;
+    background: #d195ff3f;
+}
+div.form-element {
+    margin: 20px 0;
+}
+button {
+    padding: 10px;
+    font-size: 1.5rem;
+    font-family: 'Lato';
+    font-weight: 100;
+    background: yellowgreen;
+    color: white;
+    border: none;
+    margin: 20px 0;
+}
+button.clean {
+    padding: 10px;
+    font-size: 1.5rem;
+    font-family: 'Lato';
+    font-weight: 100;
+    background: #452370;
+    color: white;
+    border: none;
+    margin: 20px 0;
+}
+
+
+.bday{
+    margin-right: 300px;
+}
+.color-eyes{
+    margin-right: 300px;
+}
+.must-big{
+
+    margin-left: 500px;
+}
+.data-registr{
+    margin-right: 305px;
+}
+.sex{
+    margin-right: 301px;
+}
+.radio-sex{
+
+    margin-left: 500px;
+    padding: 15px;
+    font-size: 1.5rem;
+}
+.value{
+    margin-left: 450px;
+}
+
+.soglasie{
+    margin-right: 300px;
+}
+.about{
+
+    margin-left: 500px;
+    padding: 15px;
+    font-size: 1.5rem;
+}
+
+.checkbox{
+    transform:scale(1.7);
+}
+
+p.success,
+p.error {
+    color: white;
+    font-family: lato;
+    background: yellowgreen;
+    display: inline-block;
+    padding: 2px 10px;
+}
+p.error {
+    background: orangered;
+}

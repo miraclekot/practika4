@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<HTML>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style_4.css">
+    <script defer src="script.js"></script>
+    <title>Practika_4</title>
+</head>
+<body>
+    <form method="post" action="" name="signin-form">
+        <h1>Форма регистрации</h1>
+        <div class="form-element">
+          <label>Фамилия</label>
+          <input id="lastname" type="text" name="username"  required >
+        </div>
+        <div class="form-element">
+            <label>Имя</label>
+            <input id="firstname" type="text" name="username"  required >
+        </div>
+        <div class="form-element">
+            <label>Отчество</label>
+            <input id="surname" type="text" name="username"   >
+        </div>
+        <div class="form-element">
+            <label class="sex">Пол</label>
+            <div class="radio-sex">
+                Мужской<input id="sex1" name="sex"  type="radio" required>
+                Женский<input id="sex2" name="sex" type="radio" required>
+            </div>
+            
+        </div>
+        <div class="form-element">
+            <label class="color-eyes">Цвет глаз</label>
+            <input class="must-big" type="color" id="eyes" name="color-eyes"  value="#080ec4">
+        </div>
+        <div class="form-element">
+            <label class="bday" >Дата рождения</label>
+            <input class="must-big" type="date" name="bday"  required >
+        </div>
+        <div class="form-element">
+            <label class="age1" >Возраст</label>
+            <input type="range" id="age" name="age" min="18" max="100" step="1" >
+            <p class="value">Value: <output id="value"></output></p>
+        </div>
+        <div class="form-element">
+            <label>Место рождения</label>
+            <input list="bplace" name="bplace" required >
+            <datalist id="bplace">
+                <option value="Саратов">
+                <option value="Энгельс">
+                <option value="Москва">
+                <option value="Маркс">
+                <option value="Балаково">
+                <option value="Вольск">
+                <option value="Татищево">
+                <option value="Ртищево">
+            </datalist>
+        </div>
+        <div class="form-element">
+            <label>Индекс</label>
+            <input type="number" name="index"  required >
+        </div>
+        <div class="form-element">
+            <label>Домашний адрес</label>
+            <input type="text" name="adress"  required >
+        </div>
+        <div class="form-element">
+            <label class="data-registr">Дата регистрации</label>
+            <input  class="must-big" type="date" name="date-registreted" required >
+        </div>
+        <div class="form-element">
+            <label >Номер телефона</label>
+            <input type="text" id="phone" data-phone-pattern placeholder="+7 (___) ___-__-__" required >
+        </div>
+        <div class="form-element">
+            <label>E-mail</label>
+            <input type="email" pattern=".+@mail\.ru" placeholder="study@mail.ru" name="email" required >
+        </div>
+        <div class="form-element">
+            <label>Скриншот первой страницы Вашего паспорта</label>
+            <input type="file" name="foto" accept=".jpg" required >
+        </div>
+        <div class="form-element">
+            <label class="soglasie">Откуда Вы узнали о магазине?</label>
+            <div class="about">
+                <p>Реклама в СМИ<input type="checkbox" ></p>
+                <p>От знакомых/друзей<input type="checkbox" ></p>
+                <p>Случайно наткнулись на улице<input type="checkbox" ></p>
+            </div>
+        </div>
+        <div class="form-element">
+            <label class="soglasie">Cогласие на обработку и хранение персональных данных</label>
+            <input class="checkbox" type="checkbox" name="checkbox"  required >
+        </div>
+        <button class="clean" type="reset" name="clean" value="clean">Очистить</button>
+        <button type="submit" name="login" value="login">Отправить</button>
+    
+      </form>
+
+</body>
+</HTML>
